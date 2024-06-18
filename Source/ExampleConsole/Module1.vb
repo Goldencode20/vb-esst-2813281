@@ -1,6 +1,7 @@
 ﻿Module Module1
 
 	Sub Main()
+
 		Dim counter = 2
 		Dim outputStirng
 		Dim currentChar = "-"c
@@ -16,6 +17,9 @@
 			Console.WriteLine(outputStirng)
 			Threading.Thread.Sleep(120)
 		Loop While currentChar <> " "
+
+		' example code available in git branches
+
 	End Sub
 
 End Module
